@@ -3,12 +3,33 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@ant-design/icons": "^4.2.2",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "antd": "^4.6.1",
+    "antd-theme": "^0.3.4",
+    "autoprefixer": "^9.8.6",
+    "axios": "^0.20.0",
+    "expo": "^38.0.10",
+    "expo-dark-mode-switch": "0.0.1",
+    "gulp": "^4.0.2",
+    "gulp-csso": "^4.0.1",
+    "gulp-debug": "^4.0.0",
+    "gulp-less": "^4.0.1",
+    "gulp-postcss": "^8.0.0",
+    "less-plugin-npm-import": "^2.1.0",
     "react": "^16.13.1",
+    "react-color": "^2.18.1",
+    "react-css-theme-switcher": "^0.1.6",
+    "react-dark-mode-toggle": "0.0.9",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3"
+    "react-highlight-words": "^0.16.0",
+    "react-native-svg": "12.1.0",
+    "react-redux": "^7.2.1",
+    "react-scripts": "3.4.3",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -30,5 +51,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "css-loader": "^4.2.2",
+    "less": "^3.12.2",
+    "less-loader": "^7.0.0",
+    "react-app-rewired": "^2.1.6"
   }
 }

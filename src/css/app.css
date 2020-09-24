@@ -1,0 +1,8 @@
+@import "~antd/dist/antd.css";
+.logo {
+  width: 120px;
+  height: 31px;
+  background: rgb(37, 190, 196);
+  margin: 16px 24px 16px 0;
+  float: left;
+}
